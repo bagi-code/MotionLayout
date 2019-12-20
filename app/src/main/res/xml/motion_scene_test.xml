@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetStart="@layout/activity_test_start"
+        motion:constraintSetEnd="@layout/activity_test_end"
+        motion:duration="1000">
+
+        <OnClick
+            motion:targetId="@id/button"/>
+    </Transition>
+
+
+</MotionScene>
